@@ -1,0 +1,3 @@
+Other info:
+Running Arch Linux, ZSH with OhMyZsh
+NerdFonts installed in .local/share/fonts

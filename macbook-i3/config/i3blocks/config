@@ -1,0 +1,32 @@
+# Global properties
+separator=true
+separator_block_width=15
+
+[weather]
+color=#FFFF00
+label=날씨: 
+command=/home/user/.config/i3blocks/weather
+interval=600
+
+[iface]
+color=#FF0000
+label=IP: 
+command=/home/user/.config/i3blocks/iface
+interval=60
+
+[memory]
+color=#3333FF
+label=메모리: 
+command=/home/user/.config/i3blocks/memory
+interval=30
+
+[battery]
+color=#00FF00
+label=베터리: 
+command=/home/user/.config/i3blocks/battery
+interval=30
+
+[time]
+color=#7C4DFF
+command=date '+%Y/%m/%d %I:%M %p'
+interval=1
